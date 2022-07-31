@@ -8,9 +8,9 @@ class Translation(object):
       LOGIN = """Only for admins for receiving feedbacks"""
 
 
-      ABOUT = """**MY DETAILS:**
+      ABOUT = """𝑴𝒀 𝑫𝑬𝑻𝑰𝑨𝑳𝑺:
 
-○ 🪤 𝖬𝗒 𝖭𝖺𝗆e: [ചാരൻ 2.0](https://t.me/Feedback_Nsbot)
+○ 🪤 𝖬𝗒 𝖭𝖺𝗆e: [ചാരൻ 2.0](http://t.me/KMX_ADMIN_Bot)
     
 ○ 🍂 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾:``` [𝖯𝗒𝗍𝗁𝗈𝗇 3](https://www.python.org/)
 
@@ -20,5 +20,5 @@ class Translation(object):
                
 ○ 🧷 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 :``` [𝖬𝗈𝗇𝗀𝗈𝖣𝖡](https://www.mongodb.com/)
 
-○ 👥 𝖦𝗋𝗈𝗎𝗉 :``` [Ns BOT SUPPORT](https://t.me/Ns_Bot_supporters)
+○ 👥 𝖦𝗋𝗈𝗎𝗉 :``` [𝖪𝖬𝖷 𝖬𝗈𝗏𝗂𝖾 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝖦𝗋𝗈𝗎𝗉](https://t.me/KMX_Group)
 """
