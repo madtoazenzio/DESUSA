@@ -1,11 +1,11 @@
 from config import Config
 
 class Translation(object):
-      START = str(Config.START) + "\n\nFor source code [press me](https://github.com/Ns-AnoNymouS/feedbackbot)"
+      START = str(Config.START) + "\n\n"
 
       RULES = Config.RULES
 
-      LOGIN = """Only for admins for receiving feedbacks"""
+      LOGIN = """𝖮𝗇𝗅𝗒 𝖥𝗈𝗋 𝖠𝖽𝗆𝗂𝗇𝗌 𝖥𝗈𝗋 𝖱𝖾𝖼𝖾𝗂𝗏𝗂𝗇𝗀 𝖥𝖾𝖾𝖽𝖻𝖺𝖼𝗄𝗌"""
 
 
       ABOUT = """𝑴𝒀 𝑫𝑬𝑻𝑰𝑨𝑳𝑺:
