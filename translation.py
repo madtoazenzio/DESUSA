@@ -21,6 +21,4 @@ class Translation(object):
 ○ 🧷 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 :``` [NS BOT UPDATES](https://t.me/Ns_bot_updates)
 
 ○ 👥 𝖦𝗋𝗈𝗎𝗉 :``` [Ns BOT SUPPORT](https://t.me/Ns_Bot_supporters)
-
-Inspired By @stemlime_bot
 """
