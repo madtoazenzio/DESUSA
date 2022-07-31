@@ -20,8 +20,8 @@ async def text(c, m):
             await m.reply_text(text="**Incorrect Password ⚠️**", parse_mode="markdown")
       if m.from_user.id in Config.feedback:
          button = [[
-                   InlineKeyboardButton("Yes", callback_data="yes"),
-                   InlineKeyboardButton("No", callback_data="cancel")
+                   InlineKeyboardButton("ʏᴇs", callback_data="yes"),
+                   InlineKeyboardButton("ɴᴏ", callback_data="cancel")
                   ]]
          markup = InlineKeyboardMarkup(button)
          await m.reply_text(text="Are you sure to send this feedback",
@@ -39,12 +39,12 @@ async def text(c, m):
 @feedback.on_message(filters.command(["start"]))
 async def start(c, m):
       button = [[
-                InlineKeyboardButton("Feedback", callback_data="feedback"),
-                InlineKeyboardButton("Rules", callback_data="rules"),
+                InlineKeyboardButton("ғᴇᴇᴅʙᴀᴄᴋ", callback_data="feedback"),
+                InlineKeyboardButton("ʀᴜʟᴇs", callback_data="rules"),
                 ],
                 [
-                InlineKeyboardButton("About", callback_data="about"),
-                InlineKeyboardButton("Login", callback_data="login"),
+                InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about"),
+                InlineKeyboardButton("ʟᴏɢɪɴ", callback_data="login"),
                ]]
       markup = InlineKeyboardMarkup(button)
       await c.send_message(chat_id=m.chat.id,
